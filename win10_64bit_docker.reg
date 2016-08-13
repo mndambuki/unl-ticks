@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\docker]
+@="URL:Docker Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\docker\shell]
+
+[HKEY_CLASSES_ROOT\docker\shell\open]
+
+[HKEY_CLASSES_ROOT\docker\shell\open\command]
+@="\"C:\\Program Files\\UNetLab\\docker_wrapper.bat\" %1"
